@@ -7,7 +7,7 @@ A personal RSS generator for multiple public Xiaoyuzhou podcasts.
 - **记意电波** — https://zengtoushi.github.io/xiaoyuzhou-rss/feeds/jiyi-radio.xml
 - **越位线** — https://zengtoushi.github.io/xiaoyuzhou-rss/feeds/yueweixian.xml
 
-Each feed retains up to 30 episodes. GitHub Actions refreshes all configured feeds every four hours. Audio files remain hosted by Xiaoyuzhou; this project publishes episode metadata and public audio enclosure links only. The public podcast page may expose only a recent batch of episodes on the first run; the saved history then accumulates as the scheduled refreshes discover new episodes. It does not perform a full historical backfill.
+Each feed retains up to 30 episodes. GitHub Actions refreshes all configured feeds once daily (at 09:17 UTC). Audio files remain hosted by Xiaoyuzhou; this project publishes episode metadata and public audio enclosure links only. The public podcast page may expose only a recent batch of episodes on the first run; the saved history then accumulates as the scheduled refreshes discover new episodes. It does not perform a full historical backfill.
 
 ## Add a podcast
 

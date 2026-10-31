@@ -1,0 +1,24 @@
+{
+  "podcasts": [
+    {
+      "slug": "jiyi-radio",
+      "name": "记意电波",
+      "platform": "xiaoyuzhou",
+      "url": "https://www.xiaoyuzhoufm.com/podcast/64341d0ec21112da279464c6",
+      "max_episodes": 30,
+      "state_path": "state/episodes.json",
+      "feed_path": "docs/feeds/jiyi-radio.xml",
+      "feed_url": "https://zengtoushi.github.io/xiaoyuzhou-rss/feeds/jiyi-radio.xml"
+    },
+    {
+      "slug": "yueweixian",
+      "name": "越位线",
+      "platform": "xiaoyuzhou",
+      "url": "https://www.xiaoyuzhoufm.com/podcast/6a1932bff51444ffa30a1dd8",
+      "max_episodes": 30,
+      "state_path": "state/yueweixian.json",
+      "feed_path": "docs/feeds/yueweixian.xml",
+      "feed_url": "https://zengtoushi.github.io/xiaoyuzhou-rss/feeds/yueweixian.xml"
+    }
+  ]
+}

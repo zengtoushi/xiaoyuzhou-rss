@@ -74,10 +74,6 @@ def fetch_source(show):
     raw_episodes = podcast.get("episodes") or []
     if not raw_episodes:
         raise RuntimeError(f'{show["name"]}: the public page returned no episodes.')
-    print(f'{show["name"]}: source returned {len(raw_episodes)} raw episodes.')
-    for raw in raw_episodes[:5]:
-        date_fields = {k: v for k, v in raw.items() if "date" in k.lower() or "time" in k.lower() or "publish" in k.lower() or "create" in k.lower() or "update" in k.lower()}
-        print(f'  SOURCE: title={raw.get("title")!r}; eid={raw.get("eid") or raw.get("id")!r}; date_fields={date_fields!r}; keys={sorted(raw.keys())!r}')
     return podcast, raw_episodes
 
 

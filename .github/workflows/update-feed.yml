@@ -1,6 +1,8 @@
 name: Update podcast RSS and publish Pages
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "0 1 * * *"
